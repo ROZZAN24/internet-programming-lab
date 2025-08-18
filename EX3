@@ -1,0 +1,152 @@
+                       <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" > 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>roz buy</title>
+</head>
+<body style="background-color: bisque;"> 
+
+    <div style="display: flex; justify-content:space-between; background-color:rgb(209, 250, 115);  border: 2px solid black;">
+      <div style="display: flex; align-items: center;" >
+             <img src="./logo.jpg" style="margin: 9px;" height="60" width="80" alt="goofy"> 
+             <h1> ROZ BUY MART</h1> 
+            </div>    
+    
+    <div style="display: flex; align-items: center;">
+      <a href="ex2.html" style="margin: 9px;"><i class="fa-solid fa-house-user"></i></a>
+      <a href="collection.html"  style="margin: 9px;"><i class="fa-solid fa-clipboard-list"></i></a>
+      <a href="cart.html" style="margin: 9px;"><i class="fa-solid fa-cart-plus"></i></a>
+      <a href="https://www.google.com/maps/@9.6763904,77.9649024,14z?entry=ttu&g_ep=EgoyMDI1MDczMC4wIKXMDSoASAFQAw%3D%3D " style="margin: 9px;"><i class="fa-solid fa-location-dot"></i></a>
+    </div>
+</div>
+      <center><video src="./SampleVideo_1280x720_20mb.mp4" autoplay loop style="width: 98%; border-radius: 20px; margin: 9px;" ></video></center>
+</body>
+</html>
+
+cart:
+              <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CART</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body style="background-color: bisque;">
+
+    <div style="display: flex; justify-content:space-between; background-color:rgb(209, 250, 115);  border: 2px solid black;">
+        <div style="display: flex; align-items: center;" >
+               <img src="./logo.jpg" style="margin: 9px;" height="60" width="80" alt="goofy"> 
+               <h1> ROZ BUY MART</h1> 
+              </div>    
+      
+      <div style="display: flex; align-items: center;">
+        <a href="ex2.html" style="margin: 9px;"><i class="fa-solid fa-house-user"></i></a>
+        <a href="collection.html"  style="margin: 9px;"><i class="fa-solid fa-clipboard-list"></i></a>
+        <a href="cart.html" style="margin: 9px;"><i class="fa-solid fa-cart-plus"></i></a>
+        <a href="https://www.google.com/maps/@9.6763904,77.9649024,14z?entry=ttu&g_ep=EgoyMDI1MDczMC4wIKXMDSoASAFQAw%3D%3D " style="margin: 9px;"><i class="fa-solid fa-location-dot"></i></a>
+      </div>
+  </div>
+
+ <table>
+    <form action="">
+        <h1>NAME : </h1>
+        <input type="text" placeholder="ENTER THE NAME">
+        <h1>QUANTITY : </h1>
+        <select name="" id="">
+            <option value="">select</option>
+            <option value="">1</option>
+            <option value="">2</option>
+            <option value="">3</option>
+        </select>
+        <h1>ADDRESS : </h1>
+        <input type="text" placeholder="ENTER YOUR ADDRESS">
+
+      </form>
+      <br>
+      <button style="background-color: rgb(216, 247, 104);">ORDER</button>
+ </table>
+</body>
+</html>
+Collections:
+                   <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body style="background-color: bisque;">
+
+  <div style="display: flex; justify-content:space-between; background-color:rgb(209, 250, 115);  border: 2px solid black;">
+    <div style="display: flex; align-items: center;" >
+           <img src="./logo.jpg" style="margin: 9px;" height="60" width="80" alt="goofy"> 
+           <h1> ROZ BUY MART</h1> 
+          </div>    
+  
+  <div style="display: flex; align-items: center;">
+    <a href="ex2.html" style="margin: 9px;"><i class="fa-solid fa-house-user"></i></a>
+    <a href="collection.html"  style="margin: 9px;"><i class="fa-solid fa-clipboard-list"></i></a>
+    <a href="cart.html" style="margin: 9px;"><i class="fa-solid fa-cart-plus"></i></a>
+    <a href="https://www.google.com/maps/@9.6763904,77.9649024,14z?entry=ttu&g_ep=EgoyMDI1MDczMC4wIKXMDSoASAFQAw%3D%3D " style="margin: 9px;"><i class="fa-solid fa-location-dot"></i></a>
+  </div>
+</div>
+
+    <center><h1>COLLECTIONS</h1></center>
+    <table border="2" style="background-color: aquamarine;">
+        <tr>
+          <td style="background-color: rgb(250, 237, 125);">
+            <div class="one"><img src="./slippers.jpg" height="200" width="300" alt="goofy"></div>
+            <div><p>Puma Men Galaxy Comfort V3 Idp Flip Flops <br>
+                4.1(143 user reviews) <br>
+                $340.00 <br>
+                Color: Black/Gold</p> </div>
+                <div><button style="background-color: rgb(216, 247, 104);">add to cart</button></div>
+                <div><button style="background-color: rgb(216, 247, 104);">ORDER</button></div>
+          </td>
+
+          <td style="background-color: rgb(250, 237, 125);">
+                <div class="one" ><img src="./shirt.jpg" height="200" width="300" alt="goofy"></div>
+                <div><p>Classic Shirt <br>
+             For the moments when first impressions matter and so do lasting ones.<br>
+             $350.00 <br>
+                     1379 reviews</p></div>
+                     <div><button style="background-color: rgb(216, 247, 104);">add to cart</button></div>
+                     <div><button style="background-color: rgb(216, 247, 104);">RODER</button></div>
+          </td>
+
+          <td style="background-color: rgb(250, 237, 125);">
+               <div class="one"><img src="./hoddies.jpg" height="200" width="300" alt="goofy"></div>
+               <div><p>Hoodie Sweashirts Brand Men Hoodie Spring And Autumn Hip Hop Streetwear <br>
+                Men Pullover Sweatshirts Hoodies Mens Solid Color Hoodie Male Tops Xxl Yellow <br>
+                 $100.00 <br>
+                 SAVE 60% OFF</p></div>
+                 <div><button style="background-color: rgb(216, 247, 104);">add to cart</button></div>
+                 <div><button style="background-color: rgb(216, 247, 104);">ORDER</button></div>
+          </td>
+
+          <td style="background-color: rgb(250, 237, 125);">
+            <div class="one"><img src="./headphone.jpg" height="200" width="300" alt="goofy"></div>
+            <div><p>Zebronics Boom Wired Headphone Over Ear Mic <br>
+                5.0(1 user review) <br>
+                $650.00 <br>
+                Colour: Beige</p></div>
+                <div><button style="background-color: rgb(216, 247, 104);">add to cart</button></div>
+                <div><button style="background-color: rgb(216, 247, 104);">ORDER</button></div>
+       </td> 
+</tr>
+      </table>
+</body>
+
+<style>
+  .one:hover
+  {
+      transform: scale(1.5);
+      transition-duration:2s ;
+      transition-delay: 90ms;
+  }
+</style>
+</html>
