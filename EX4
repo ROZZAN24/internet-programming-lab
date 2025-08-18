@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rozan</title>
+</head>
+<body style="background-color: rgb(238, 208, 169);">
+    <div style="background-color: blanchedalmond; text-align: center; font-size: 40px;">
+        <h1>Validate Form</h1>
+    </div>
+    <div style="display: flex; justify-content: center;">
+        <div style="height: auto; width: 400px; background-color: azure; border-radius: 9px; padding: 12px;">
+            <form action="" id="loginForm">
+                <h1>Name :</h1>
+                <input id="name" type="text" style="background-color:azure ;" required>
+                
+                <h1>Roll no :</h1>
+                <input id="rollno" type="text" style="background-color:azure ;" required>
+                
+                <h1>Phone no :</h1>
+                <input id="phone" type="number" style="background-color:azure ;" required>
+                
+                <h1>Email ID :</h1>
+                <input id="email" type="email" style="background-color:azure ;" required>
+                
+                <h1>Password :</h1>
+                <input id="password" type="password" style="background-color:azure ;" required>
+                
+                <h1>Confirm password :</h1>
+                <input id="confirmPassword" type="password" style="background-color:azure ;" required>
+                <br>
+                <button type="submit" style="background-color:azure ; padding: 10px; margin: 10px;">Submit</button>
+            </form>
+        </div>
+    </div>
+
+<script>
+    document.getElementById("loginForm").addEventListener("submit", function(event) {
+        event.preventDefault();
+
+        let name = document.getElementById("name").value.trim();
+        let rollno = document.getElementById("rollno").value.trim();
+        let email = document.getElementById("email").value.trim();
+        let phone = document.getElementById("phone").value.trim();
+        let password = document.getElementById("password").value;
+        let confirmPassword = document.getElementById("confirmPassword").value;
+
+        
+        if (!name || !rollno || !email || !phone || !password || !confirmPassword) {
+            alert("All fields are required!");
+            return;
+        }
+
+        
+        let emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        if (!emailPattern.test(email)) {
+            alert("Please enter a valid email address.");
+            return;
+        }
+
+        
+        let phonePattern = /^\d{10}$/;
+        if (!phonePattern.test(phone)) {
+            alert("Phone number must be exactly 10 digits.");
+            return;
+        }
+
+        
+        let passwordPattern = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&]).{8,}$/;
+        if (!passwordPattern.test(password)) {
+            alert("Password must be at least 8 characters long, include uppercase, lowercase, number, and special character.");
+            return;
+        }
+
+        // Confirm password
+        if (password !== confirmPassword) {
+            alert("Passwords do not match!");
+            return;
+        }
+
+        alert("Form submitted successfully!");
+    });
+</script>
+</body>
+</html>
